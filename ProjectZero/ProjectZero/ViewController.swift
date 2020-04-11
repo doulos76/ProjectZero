@@ -9,16 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    helloSwift()    
+    helloSwift()
+    self.helloBranch()
+    helloBranch()
   }
   
   func helloSwift() {
     print("Hello Swift!")
   }
-
-
+  
+  func helloSwiftYS() {
+    print("Hello Swift!")
+  }
+  
+  func helloBranch() {
+    print("Hello Develop Branch!!")
+  }
+    
+// git update
 }
-
