@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    helloSwift()    
+    helloSwift()
+    self.helloBranch()
+    helloBranch()
   }
   
   func helloSwift() {
@@ -23,6 +25,11 @@ class ViewController: UIViewController {
     print("Hello Swift!")
   }
 
-
+  func helloSwift() {
+     print("Hello Swift!")
+   }
+    
+   func helloBranch() {
+      print("Hello Develop Branch!!")
+   }
 }
-
