@@ -18,6 +18,10 @@ class ViewController: UIViewController {
   func helloSwift() {
     print("Hello Swift!")
   }
+    
+  func helloSwiftYS() {
+    print("Hello Swift!")
+  }
 
 
 }
